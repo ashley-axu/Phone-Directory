@@ -1,29 +1,9 @@
-/*
-    A brief summary: a program that maintains a list of names and phone numbers, or a
-        phone directory of your friends.
-
-        In addition, it also provides a user-friendly and menu-driven program to allow the
-        user to select and execute the following operations/services:
-        # 1. Load a previously saved phone directory from file
-        # 2. Add or change an entry
-        # 3. Remove an entry
-        # 4. Search for an entry
-        # 5. Display all entries
-        # 6. Save the current phone directory to a file
-        # 7. Quit the program
-
-    Authors: 1. Paul Sining Lu; sininglu@sandiego.edu
-             2. Ashley; axu@sandiego.edu
-
-    Last Date Modified: 11/4/2021
- */
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class proj4 {
+public class PhoneDirectoryTest {
     public static void main(String[] args) {
 
         System.out.println("This is a program that help you save your contact info\n");
